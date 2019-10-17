@@ -8,6 +8,7 @@ public class Fibonacci{
     if(i < 9){
      System.out.print(a + ",");
      c = a + b;
+     f = a + c;
      a = b;
      b = c;
     } else {
